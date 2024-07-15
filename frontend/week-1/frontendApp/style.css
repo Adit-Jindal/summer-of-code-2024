@@ -1,0 +1,72 @@
+body {
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+/*div*/
+#panel {
+    width:40%;
+    padding:1% 5% 0 5%;
+    backdrop-filter: blur(15px) saturate(90%);
+    border-radius: 10px;
+    box-shadow: 10px;
+    border: thin solid rgba(100,200,255, 0.5);
+    margin-top:5%;
+}
+#websiteLinks {
+    height:40px;
+    width:90%;
+    display:flex;
+    margin-left:10%;
+}
+#companyName {
+    height:10%;
+    display:flex;
+    align-items:center;
+}
+/*headings*/
+h1 {
+    display: inline;
+    height:80%;
+}
+/*Buttons*/
+.iconButtons {
+    width:30%;
+}
+#loginButton {
+    width:60%;
+    margin-top: 5%;
+    padding: 1%;
+    margin-left: 25%;
+}
+/*images*/
+.icons {
+    height:80%;
+}
+#logo {
+    height: 50%;
+    margin-right:3%;
+}
+/*input*/
+input {
+    width: 100%;
+    padding: 2%;
+}
+/*Links*/
+#forgotPassword {
+    height: 5%;
+}
+a {
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+/*p*/
+#orContinueWith {
+    margin-left: 43.5%;
+}
